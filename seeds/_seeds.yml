@@ -1,0 +1,10 @@
+seeds:
+  - name: employees
+    description: a csv mapping 
+    columns:
+      - name: employee_id
+      - name: customer_id 
+        tests:
+          - unique
+          - not_null
+            
